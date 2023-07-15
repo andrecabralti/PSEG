@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Fira Sans, Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+}
+
+ul{
+  margin: 0px;
+  padding:  0px;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  
+}
