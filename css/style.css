@@ -2,7 +2,7 @@
 @import "./global/header.css";
 @import "./articles/apresentacao.css";
 
-.container {
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -24,11 +24,11 @@
     margin-bottom: 10px;
   }
 
-  .container.pesquisas {
+  .row.pesquisas {
     background-image: url(../img/fundo-profissionais.jpg);
     border-top: 3px;
     border-top-style: solid;
-    border-top-color: white;
+    border-top-color: #19598F;
 }
 
 .column.pesq { 
