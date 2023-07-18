@@ -12,14 +12,11 @@
 }
 .texto_apresentacao{
   background-color: #2C2E62;
-  width: 40%;
-  height: 30%;
-  border: 2px;
-  position: relative;
-  top: 400px;
-  left: 40px;
+  margin-top: -13%;
   padding: 40px;
-  border-radius: 50% 20% / 10% 40%;
+  margin-left: 20px;
+  border-radius: 37% 22% / 17% 41%;
+  width: 85%;
 }
 
 .texto_apresentacao h1, h2 {
@@ -48,6 +45,10 @@
   .texto_apresentacao p{
     font-size: 1rem;
   }
+
+  .column.profissionais  { 
+    display: none;
+  }
 }
 
 @media (max-width:800px){
@@ -61,7 +62,13 @@
   font-size: 1.5rem;
 }
 
+.column.profissionais  { 
+  display: none;
 }
+
+}
+
+
 
 
 @media (max-width:750px){
@@ -71,8 +78,13 @@
    padding: 20px;
    margin-left: 70px;
  }
- 
+
+ .column.profissionais  { 
+  display: none;
 }
+}
+ 
+
 @media (max-width:600px){
   .texto_apresentacao {
    top: 230px;
@@ -80,6 +92,10 @@
    padding: 20px;
    margin-left: 30px;
  }
+
+ .column.profissionais  { 
+  display: none;
+}
  
 }
 
@@ -90,6 +106,10 @@
    padding: 20px;
    margin-left: 60px;
  }
+
+.column.profissionais { 
+  display: none;
+}
 
  .texto_apresentacao h1,p{
   font-size: 1rem;
