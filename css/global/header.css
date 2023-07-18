@@ -1,5 +1,8 @@
 .header-bg{
   background-color: #f7f7f7;
+    border-bottom-width: 3px;
+    border-bottom-color: #19598F;
+    border-bottom-style: solid;
 }
 
 .header{
@@ -15,6 +18,7 @@
   flex-wrap: wrap;
   align-items:center;
   gap: 80px;
+  
   
 }
 

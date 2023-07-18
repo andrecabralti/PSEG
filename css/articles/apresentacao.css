@@ -12,11 +12,11 @@
 }
 .texto_apresentacao{
   background-color: #2C2E62;
-  margin-top: -13%;
+  margin-top: -16%;
   padding: 40px;
   margin-left: 20px;
   border-radius: 37% 22% / 17% 41%;
-  width: 85%;
+  width: 35%;
 }
 
 .texto_apresentacao h1, h2 {
