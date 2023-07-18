@@ -6,3 +6,10 @@
 @import "./articles/equipe.css";
 
 @import "./utilidades/utilidades.css";
+
+.container.infra{ 
+background-image: url(../img/section-infra.png);
+height: 105vh;
+padding-bottom: 30%;
+    background-size: 103% 57%;
+}
