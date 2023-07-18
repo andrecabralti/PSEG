@@ -17,11 +17,15 @@
   }
 
   .title-column { 
-    text-align: center;
-    color: white;
-    animation: floatAnimation 3s ease-in-out infinite;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    text-align:end;
+    color: #2C2E62;
+    padding: 0 300px;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    
   }
 
   .row.pesquisas {
@@ -41,6 +45,7 @@
   background-color: #5CC2D7;
   width: 91%;
   text-align: center;
+  padding: 10px;
   border-radius: 43px;
   animation: floatAnimation 3s ease-in-out infinite;
   -webkit-box-shadow: 4px 10px 49px 0px rgba(0,0,0,0.75);
@@ -72,6 +77,7 @@ margin-left: 20px;
   margin-bottom: 10px;
   margin-left: 110px;
 }
+
 
 .areas{ 
   color: white;
