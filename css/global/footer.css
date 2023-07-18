@@ -1,13 +1,13 @@
 .footer-bg {
-  background-color: #f7f7f7;
+  background-color: var(--cor-0);
 }
 
 .footer {
   display: grid;
-  grid-template-columns: 4fr 2fr 2fr;
-  gap: 40px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .footer h3 {
@@ -16,6 +16,7 @@
 
 .footer-contato ul {
   margin-bottom: 32px;
+
 }
 
 .footer-contato li:nth-child(even):after {
@@ -25,6 +26,10 @@
   height: 2px;
   background: var(--cor-p5);
   margin-top: 16px;
+}
+
+.footer-informacoes{
+  padding-right: 90px;
 }
 
 .footer li {
@@ -37,12 +42,17 @@
 }
 
 .footer a:hover {
-  color: var(--cor-0);
+  color: var(--cor-p2);
 }
 
 .footer-copy {
   grid-column: 1/-1;
   margin-top: 40px;
+}
+
+.direitos{
+  color: var(--cor-p5);
+  text-align: center;
 }
 
 @media (max-width: 800px) {
