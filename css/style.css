@@ -2,14 +2,8 @@
 @import "./global/header.css";
 @import "./global/footer.css";
 
-@import "./articles/apresentacao.css";
-@import "./articles/equipe.css";
+@import "./sections/apresentacao.css";
+@import "./sections/equipe.css";
+@import "./sections/infra.css";
 
 @import "./utilidades/utilidades.css";
-
-.container.infra{ 
-background-image: url(../img/section-infra.png);
-height: 105vh;
-padding-bottom: 30%;
-    background-size: 103% 57%;
-}
