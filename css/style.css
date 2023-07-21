@@ -7,3 +7,114 @@
 @import "./sections/infra.css";
 
 @import "./utilidades/utilidades.css";
+
+ul#va {
+    margin-left: 12%;
+    text-align: justify;
+    margin-right: 15%;
+    font-size: 22px;
+    list-style: outside;
+}
+
+
+@media (max-width:750px){
+  
+   .column.img-conhecer  { 
+    display: none;
+  }
+  }
+
+
+  svg {
+    margin-top: 2.8%;
+}
+
+
+
+.column.estrutura {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+section.container.estrutura {
+    height: 100vh;
+}
+
+
+.column.estrutura.exame{
+    transition: 0.3s;
+    background-image:url(../img/coleta-exame.jpg) ;
+    background-size: cover;
+    color: white;
+}
+.column.estrutura.consultorio{
+    transition: 0.3s;
+    background-image:url(../img/consultório.jpg) ;
+    background-size: cover;
+    color: white;
+}
+.column.estrutura.farmacia{
+    transition: 0.3s;
+    background-image:url(../img/farmacia.jpg) ;
+    background-size: cover;
+    color: white;
+}
+.column.estrutura.coordenacao{
+    transition: 0.3s;
+    background-image:url(../img/coordenação.jpg) ;
+    background-size: cover;
+    color: white;
+}
+.column.estrutura.hospitalar{
+    transition: 0.3s;
+    background-image:url(../img/suporte-hospitalar.jpg) ;
+    background-size: cover;
+    color: white;
+}
+.column.estrutura.tratamento{
+    transition: 0.3s;
+    background-image:url(../img/area-tratamento.jpg) ;
+    background-size: cover;
+    color: white;
+}
+
+
+
+    .column.estrutura.exame:hover{
+        transition: 0.3s;
+        -webkit-box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+        -moz-box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+        box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+}
+    .column.estrutura.consultorio:hover{
+        transition: 0.3s;
+        -webkit-box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+        -moz-box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+        box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+    }
+    .column.estrutura.farmacia:hover{
+        transition: 0.3s;
+        -webkit-box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+        -moz-box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+        box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+    }
+    .column.estrutura.coordenacao:hover{
+        transition: 0.3s;
+        -webkit-box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+        -moz-box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+        box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+    }
+    .column.estrutura.tratamento:hover{
+        transition: 0.3s;
+        -webkit-box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+        -moz-box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+        box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+    }
+    .column.estrutura.hospitalar:hover{
+        transition: 0.3s;
+        -webkit-box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+        -moz-box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+        box-shadow: inset 10px 10px 146px 48px rgba(0,0,0,0.61);
+    }
