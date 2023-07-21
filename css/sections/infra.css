@@ -32,4 +32,33 @@
   text-align: center;
   color: var(--cor-p5);
 }
+
+@media (max-width: 480px){
+  .estrutura_infra { 
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 136%;
+  }
+    
+}
+
+@media (max-width: 667px){
+  .estrutura_infra { 
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 136%;
+  }
+    
+}
+
+
+@media (max-width: 800px){
+  .estrutura_infra { 
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 136%;
+  }
+    
+}
+
  

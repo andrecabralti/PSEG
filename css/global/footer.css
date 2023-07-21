@@ -50,6 +50,11 @@
   margin-top: 40px;
 }
 
+.container.footer{ 
+  justify-content: center;
+    text-align: center;
+}
+
 .direitos{
   color: var(--cor-p5);
   text-align: center;
